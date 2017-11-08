@@ -11,7 +11,6 @@ body {
 }
 
 
-
 /*SEKTIONER*/
 
 #forside,
@@ -31,6 +30,42 @@ body {
 #trello_backlog,
 #burndownchart {
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 10vw auto;
     padding: 1.5vw;
+    background-color: #89cce5;
 }
+
+/*TEKST FORMATTERING*/
+
+/* NAVIGATIONSBARER*/
+
+nav {
+    background-color: #89cce5;
+    padding: 20px 0px 20px 0;
+}
+
+nav a {
+    display: inline-block;
+
+    width: 20vw;
+    height: 3vw;
+    padding: 5px;
+
+    font-size: 14px;
+
+    text-decoration: none;
+    color: #ffffff;
+    border: solid;
+    border-radius: 15px;
+    border-color: #202532;
+    background-color: #202532;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+}
+
+nav a:hover {
+    color: #f4912d;
+}
+
+/*INDHOLDSFORTEGNELSESMENU*/
