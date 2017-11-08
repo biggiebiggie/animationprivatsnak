@@ -33,6 +33,7 @@ body {
     max-width: 1024px;
     margin: 10vw auto;
     padding: 1.5vw;
+    /*    background-color: #e9eced;*/
     background-color: #89cce5;
     border-radius: 50px;
 }
@@ -42,12 +43,16 @@ body {
 h1 {
     font-size: 5.5vw;
     color: #ffffff;
+    margin: 6% 0 0 0;
 }
 
 h2 {
     font-size: 3vw;
     color: #ffffff;
     text-align: center;
+    border-bottom: solid;
+    border-width: 5px;
+    padding: 0 0 10px 0;
 }
 
 h4 {
@@ -72,12 +77,17 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 60px;
 }
 
 .titel {
     flex-basis: 200px;
     flex-grow: 1;
     text-align: center;
+    border-radius: 60px;
+    background-color: #202532;
+    height: 15vw;
+    align-self: center;
 }
 
 .logo {
@@ -90,7 +100,7 @@ nav {
 }
 
 #indholdsfortegnelse a {
-    width: 20vw;
+    width: 15vw;
     height: 3vw;
     padding: 5px;
 
@@ -142,9 +152,11 @@ img {
 /*FORSIDE*/
 
 #forside .column_bottom {
+    /*    background-color: #89cce5;*/
     background-color: #f4912d;
     border-radius: 30px;
     border: solid;
+    /*    border-color: #202532;*/
     border-color: #e9eced;
     border-width: 5px;
 }
