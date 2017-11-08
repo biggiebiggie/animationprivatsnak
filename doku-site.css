@@ -8,6 +8,7 @@ html {
 
 body {
     margin: 0;
+    background-color: #202532;
 }
 
 
@@ -33,22 +34,39 @@ body {
     margin: 10vw auto;
     padding: 1.5vw;
     background-color: #89cce5;
+    border-radius: 50px;
 }
 
-/*TEKST FORMATTERING*/
+/**** FONT TYPE ****/
+
+h1 {
+    font-size: 6.5vw;
+    color: #ffffff;
+}
+
 
 /* NAVIGATIONSBARER*/
 
 nav {
     background-color: #89cce5;
     padding: 20px 0px 20px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-nav a {
-    display: inline-block;
+.titel {
+    flex-basis: 200px;
+    flex-grow: 1;
+}
 
+.logo {
+    flex-basis: 100px;
+}
+
+/*
+.hovedmenu a {
     width: 20vw;
-    height: 3vw;
+    height: 4vw;
     padding: 5px;
 
     font-size: 14px;
@@ -63,9 +81,36 @@ nav a {
     text-align: center;
     margin: 5px;
 }
+*/
+
+#indholdsfortegnelse a {
+    width: 20vw;
+    height: 3vw;
+    padding: 5px;
+
+    font-size: 1.5vw;
+
+    text-decoration: none;
+    color: #ffffff;
+    border: solid;
+    border-radius: 15px;
+    border-color: #202532;
+    background-color: #202532;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+}
+
+.logo img {
+    width: 20vw;
+}
 
 nav a:hover {
     color: #f4912d;
 }
 
 /*INDHOLDSFORTEGNELSESMENU*/
+
+.img {
+    width: 100%;
+}
