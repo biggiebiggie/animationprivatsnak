@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1em;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+/*SEKTIONER*/
+
+#forside,
+#historie,
+#flowchart,
+#indholdsfortegnelse,
+#maalgruppe,
+#persona,
+#moodboard,
+#styletile,
+#scenografi_karakterdesign,
+#layoutdiagram,
+#sekvensdiagram,
+#assets,
+#testdokumentation,
+#fernisering,
+#trello_backlog,
+#burndownchart {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 1.5vw;
+}
