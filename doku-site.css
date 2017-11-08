@@ -40,48 +40,53 @@ body {
 /**** FONT TYPE ****/
 
 h1 {
-    font-size: 6.5vw;
+    font-size: 5.5vw;
     color: #ffffff;
 }
 
+h2 {
+    color: #ffffff;
+    text-align: center;
+}
 
-/* NAVIGATIONSBARER*/
+h4 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+ul {
+    color: #ffffff;
+}
+
+li {
+    padding: 2px;
+}
+
+/**** NAVIGATIONSBARER****/
 
 nav {
     background-color: #89cce5;
     padding: 20px 0px 20px 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .titel {
     flex-basis: 200px;
     flex-grow: 1;
+    text-align: center;
 }
 
 .logo {
     flex-basis: 100px;
+    padding: 15px;
 }
 
-/*
-.hovedmenu a {
-    width: 20vw;
-    height: 4vw;
-    padding: 5px;
-
-    font-size: 14px;
-
-    text-decoration: none;
-    color: #ffffff;
-    border: solid;
-    border-radius: 15px;
-    border-color: #202532;
-    background-color: #202532;
-    color: #ffffff;
-    text-align: center;
-    margin: 5px;
+.logo img {
+    width: 25vw;
 }
-*/
 
 #indholdsfortegnelse a {
     width: 20vw;
@@ -101,16 +106,24 @@ nav {
     margin: 5px;
 }
 
-.logo img {
-    width: 20vw;
-}
-
-nav a:hover {
+#indholdsfortegnelse a:hover {
     color: #f4912d;
 }
 
-/*INDHOLDSFORTEGNELSESMENU*/
+/*BILLEDER*/
 
-.img {
+img {
     width: 100%;
+    padding: 20px;
+    border-radius: 60px;
+}
+
+/*FORSIDE*/
+
+#forside .column_bottom {
+    background-color: #f4912d;
+    border-radius: 30px;
+    border: solid;
+    border-color: #e9eced;
+    border-width: 5px;
 }
