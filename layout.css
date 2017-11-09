@@ -94,6 +94,17 @@ body {
     opacity: 0;
 }
 
+#babysitting_billede {
+    background-image: url(images/babysitter.svg);
+    background-size: 100%;
+    position: absolute;
+    width: 100vw;
+    height: 80vw;
+    top: 8.3vw;
+    left: 25.7vw;
+    opacity: 0;
+}
+
 #toilet_billede {
     background-image: url(images/);
     background-size: 100%;
@@ -106,18 +117,7 @@ body {
 }
 
 #ferie_billede {
-    background-image: url(images/feriebillede.svg);
-    background-size: 100%;
-    position: absolute;
-    width: 40vw;
-    height: 32.3vw;
-    top: 12vw;
-    left: 30vw;
-    opacity: 1;
-}
-
-#babysitting_billede {
-    background-image: url(images/babysitter.svg);
+    background-image: url(images/strandbillede.svg);
     background-size: 100%;
     position: absolute;
     width: 100vw;
@@ -126,6 +126,67 @@ body {
     left: 25.7vw;
     opacity: 0;
 }
+
+/*HASHTAGS*/
+
+#hashtag_klassebillede {
+    background-image: url(images/hashtag_klassebillede.svg);
+    background-size: 100%;
+    position: absolute;
+    width: 25vw;
+    height: 3vw;
+    top: 50.9vw;
+    left: 33.5vw;
+    opacity: 0;
+}
+
+#hashtag_drunk {
+    background-image: url(images/hashtag_drunk.svg);
+    background-size: 100%;
+    position: absolute;
+    width: 25vw;
+    height: 3vw;
+    top: 50.9vw;
+    left: 33.5vw;
+    opacity: 0;
+
+    /*der er en "-" i hashtagget og to gange follow*/
+}
+
+#hashtag_babysitting {
+    background-image: url(images/hashtag_babysitting.svg);
+    background-size: 100%;
+    position: absolute;
+    width: 25vw;
+    height: 3vw;
+    top: 50.9vw;
+    left: 33.5vw;
+    opacity: 0;
+}
+
+#hashtag_toilet {
+    background-image: url(images/hashtag_toilet.svg);
+    background-size: 100%;
+    position: absolute;
+    width: 25vw;
+    height: 3vw;
+    top: 50.9vw;
+    left: 33.5vw;
+    opacity: 1;
+}
+
+#hashtag_ferie {
+    background-image: url(images/hashtag_ferie.svg);
+    background-size: 100%;
+    position: absolute;
+    width: 25vw;
+    height: 3vw;
+    top: 50.9vw;
+    left: 33.5vw;
+    opacity: 0;
+}
+
+/*ROSBOKSE*/
 
 #ros1 {
     background-image: url(images/);
@@ -182,6 +243,8 @@ body {
     left: 34.5vw;
 }
 
+/*INFOBOKSE*/
+
 #info1 {
     background-image: url(images/faktabokse/info1.svg);
     background-size: 100%;
@@ -237,6 +300,8 @@ body {
     top: 20vw;
     left: 34.5vw;
 }
+
+/*RESULTATSIDE*/
 
 #payoff {
     background-image: url(images/);
