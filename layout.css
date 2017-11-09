@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#scene {
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#baggrund {
+    background-image: url("#");
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    margin: auto;
+    position: absolute;
+    overflow: hidden;
+}
+
+#mellemgrund {
+    background-image: url("images/baggrund.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    margin: auto;
+    position: absolute;
+    overflow: hidden;
+}
+
+#instagram {
+    background-image: url(images/instagram.png);
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 12vw;
+    height: 8vw;
+    top: 3vw;
+    left: 24vw;
+}
+
+#billede_container {
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+
+#klasse_billede {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+#druk_billede {
+    background-image: url(images/drukbillede.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100vw;
+    height: 80vw;
+    top: 8.3vw;
+    left: 25.7vw;
+}
+
+#toilet_billede {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+#ferie_billede {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+#babysitting_billede {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+#ros1 {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+#ros2 {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+#ros3 {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+#ros4 {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+#info1 {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+
+#info2 {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+#info3 {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+#info4 {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+#payoff {
+    background-image: url(images/);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
