@@ -41,18 +41,12 @@ body {
 /**** FONT TYPE ****/
 
 h1 {
-    font-family: "futura-pt", sans-serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 5.5vw;
     color: #ffffff;
     margin: 6% 0 0 0;
 }
 
 h2 {
-    font-family: "futura-pt", sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 3vw;
     color: #ffffff;
     text-align: center;
@@ -111,12 +105,12 @@ nav {
     width: 25vw;
 }
 
+#indholdsfortegnelse nav {
+}
 #indholdsfortegnelse a {
-    width: 15vw;
-    height: 3vw;
     padding: 5px;
-
     font-size: 1.5vw;
+	width: 15vw;
 
     text-decoration: none;
     color: #ffffff;
@@ -150,6 +144,14 @@ img {
 .container {
     width: 100%;
     padding: 30px;
+    /*
+    border-radius: 30px;
+    background-image: url(images/flowchart.svg);
+    width: 56vw;
+    height: 30vw;
+    background-repeat: no-repeat;
+        position: relative;
+*/
 }
 
 
