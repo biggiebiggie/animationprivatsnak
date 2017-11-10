@@ -56,6 +56,9 @@ function tagValg() {
 
     //effekter med knapper skal lægges ind
 
+    $("#delknap").addClass("fade", "puls");
+    $("#lukknap").addClass("fade", "puls");
+
     $("#delknap").on("click", klikDel);
     $("#lukknap").on("click", klikLuk);
 
@@ -66,14 +69,11 @@ function tagValg() {
 function klikDel() {
     console.log("Bruger vælger at dele");
 
-    $(billede[billedeNr]).removeClass("fade");
+    $(billede[billedeNr]).hide();
     //remove puls
 
     $("#info1").addClass("fade");
 
-    //hvordan skal vi videre herfra? bare on animationend eller skal vi have en knap?
-    billedeNr++;
-    visBillede();
 }
 
 //DEL IKKE
@@ -86,10 +86,16 @@ function klikLuk() {
 
     $("#ros1").addClass("fade");
 
-    //hvordan skal vi videre herfra? bare on animationend eller skal vi have en knap?
+}
+
+
+
+function klikIteration() {
     billedeNr++;
     visBillede();
 }
+
+
 
 //// ANDET BILLEDE
 //
