@@ -14,16 +14,6 @@ body {
     padding: 0;
 }
 
-#mellemgrund {
-    background-image: url("#");
-    background-size: cover;
-    width: 100vw;
-    height: 56.25vw;
-    margin: auto;
-    position: absolute;
-    overflow: hidden;
-}
-
 #baggrund {
     background-image: url("images/baggrund.svg");
     background-size: cover;
@@ -45,13 +35,23 @@ body {
     left: 24vw;
 }
 
-/*
 #billede_container {
     position: absolute;
     width: 100vw;
     height: 80vw;
-    top: 8.3vw;
-    left: 25.7vw;
+    top: 10vw;
+    left: 26.4vw;
+}
+
+/*
+#loginsprite {
+    background-image: url(images/startsprite.svg);
+    background-size: 1500%;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+
+
 }
 */
 
@@ -59,11 +59,12 @@ body {
     background-image: url(images/klassebillede.svg);
     background-size: 100%;
     position: absolute;
-    width: 100vw;
-    height: 80vw;
-    top: 10.1vw;
-    left: 26.4vw;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+
     transform-origin: 25% 25%;
+    /* skal laves om når billederne virker*/
 }
 
 
@@ -76,82 +77,82 @@ body {
 #delknap {}
 
 #klasse_billede {
-    background-image: url(images/klassebillede.svg);
+    background-image: url(images/instagrambilleder/klassebillede.svg);
     background-size: 100%;
     position: absolute;
-    width: 100vw;
-    height: 80vw;
-    top: 8.3vw;
-    left: 25.7vw;
+    width: 100%;
+    height: 100%;
     opacity: 0;
+
+    transform-origin: 25% 25%;
 }
 
 
 #druk_billede {
-    background-image: url(images/drukbillede.svg);
+    background-image: url(images/instagrambilleder/druk.svg);
     background-size: 100%;
     position: absolute;
-    width: 100vw;
-    height: 80vw;
-    top: 8.3vw;
-    left: 25.7vw;
+    width: 100%;
+    height: 100%;
+
     opacity: 0;
 }
 
 #babysitting_billede {
-    background-image: url(images/babysitter.svg);
+    background-image: url(images/instagrambilleder/babysitting.svg);
     background-size: 100%;
     position: absolute;
-    width: 100vw;
-    height: 80vw;
-    top: 8.3vw;
-    left: 25.7vw;
+    width: 100%;
+    height: 100%;
+
     opacity: 0;
 }
 
 #toilet_billede {
-    background-image: url(images/);
+    background-image: url(images/instagrambilleder/toilet.svg);
     background-size: 100%;
     position: absolute;
-    width: 100vw;
-    height: 80vw;
-    top: 8.3vw;
-    left: 25.7vw;
+    width: 100%;
+    height: 100%;
+
     opacity: 0;
 }
 
 #ferie_billede {
-    background-image: url(images/strandbillede.svg);
+    background-image: url(images/instagrambilleder/ferie.svg);
     background-size: 100%;
     position: absolute;
-    width: 100vw;
-    height: 80vw;
-    top: 8.3vw;
-    left: 25.7vw;
+    width: 100%;
+    height: 100%;
+
     opacity: 0;
 }
 
 /*HASHTAGS*/
 
+#hashtag_container {
+    position: absolute;
+    width: 32vw;
+    height: 4vw;
+    top: 50.6vw;
+    left: 33.5vw;
+}
+
 #hashtag_klassebillede {
     background-image: url(images/hashtags/hashtag_klassebillede.svg);
     background-size: 100%;
     position: absolute;
-    width: 32vw;
-    height: 4vw;
-    top: 50.6vw;
-    left: 33.5vw;
+    width: 100%;
+    height: 100%;
     opacity: 0;
 }
 
-#hashtag_drunk {
-    background-image: url(images/hashtags/hashtag_drunk.svg);
+#hashtag_druk {
+    background-image: url(images/hashtags/hashtag_druk.svg);
     background-size: 100%;
     position: absolute;
-    width: 32vw;
-    height: 4vw;
-    top: 50.6vw;
-    left: 33.5vw;
+    width: 100%;
+    height: 100%;
     opacity: 0;
 
     /*der er en "-" i hashtagget og mangler noget i det ene tag - gælder resten af hashtags'ne*/
@@ -161,10 +162,8 @@ body {
     background-image: url(images/hashtags/hashtag_babysitting.svg);
     background-size: 100%;
     position: absolute;
-    width: 32vw;
-    height: 4vw;
-    top: 50.6vw;
-    left: 33.5vw;
+    width: 100%;
+    height: 100%;
     opacity: 0;
 }
 
@@ -172,10 +171,8 @@ body {
     background-image: url(images/hashtags/hashtag_toilet.svg);
     background-size: 100%;
     position: absolute;
-    width: 32vw;
-    height: 4vw;
-    top: 50.6vw;
-    left: 33.5vw;
+    width: 100%;
+    height: 100%;
     opacity: 0;
 }
 
@@ -183,10 +180,8 @@ body {
     background-image: url(images/hashtags/hashtag_ferie.svg);
     background-size: 100%;
     position: absolute;
-    width: 32vw;
-    height: 4vw;
-    top: 50.6vw;
-    left: 33.5vw;
+    width: 100%;
+    height: 100%;
     opacity: 0;
 }
 
@@ -316,6 +311,24 @@ body {
     opacity: 0;
 }
 
+/*SPRITE ANIMATION*/
+
+.login_cycle {
+    animation-name: login_cycle;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes login_cycle {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -1500%;
+    }
+}
 
 /*FADE ANIMATION*/
 
