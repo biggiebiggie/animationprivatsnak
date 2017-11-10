@@ -1,5 +1,10 @@
 $(window).on("load", sidenErLoadet);
 
+var antalKlik = 0;
+var klikket5Billeder = false;
+
+
+
 function sidenErLoadet() {
     console.log("siden er loadet - startbillede fader ind");
     $("#start_billede").addClass("fade");
