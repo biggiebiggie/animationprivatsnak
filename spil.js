@@ -7,9 +7,9 @@ var klikket5Billeder = false;
 
 var billede = ["#klasse_billede", "#druk_billede", "#babysitting_billede", "#toilet_billede", "#ferie_billede"];
 
-var ros = ["ros_klasse", "rose_druk", "ros_babysitting", "ros_toilet", "ros_ferie"];
+var ros = ["#ros1", "#ros2", "#ros3", "#ros4", "#ros5"];
 
-var info = ["info_klasse", "info_druk", "info_babysitting", "info_toilet", "info_ferie"];
+var info = ["#info1", "#info2", "#info3", "#info4", "#info5"];
 
 
 
@@ -22,23 +22,28 @@ function sidenErLoadet() {
 }
 
 
+//STARTBILLEDE
+console.log("startbillede fader ind med sprite for login");
 
-// FØRSTE BILLEDE
+
+
+// VIS BILLEDE
 
 function visBillede() {
     console.log("Første billede: klassebillede fader ind");
 
     $("#loginknap").off("click", visBillede);
 
-    $("#start_billede").removeClass("fade");
     console.log("billede[billedeNr]:", billede[billedeNr]);
-    $(billeder[billedeNr]).addClass("fade");
+    $(billede[billedeNr]).addClass("fade");
     //effekter med knapper skal lægges ind
 
     $("#klasse_billede").on("animationend", tagValg);
 
 
 }
+
+// TAG VALG
 
 function tagValg() {
     console.log("knapperne pulser");
@@ -49,6 +54,8 @@ function tagValg() {
     $("#lukknap").on("click", klikLuk);
 
 }
+
+//DEL
 
 function klikDel() {
     console.log("Bruger vælger at dele");
@@ -63,10 +70,12 @@ function klikDel() {
     visBillede();
 }
 
+//DEL IKKE
+
 function klikLuk() {
     console.log("Bruger vælger IKKE at dele");
 
-    $(billeder[billedeNr]).removeClass("fade");
+    $(billede[billedeNr]).removeClass("fade");
     //remove puls
 
     $("#ros1").addClass("fade");

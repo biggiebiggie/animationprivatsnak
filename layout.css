@@ -134,7 +134,7 @@ body {
 /*HASHTAGS*/
 
 #hashtag_klassebillede {
-    background-image: url(images/hashtag_klassebillede.svg);
+    background-image: url(images/hashtags/hashtag_klassebillede.svg);
     background-size: 100%;
     position: absolute;
     width: 32vw;
@@ -145,7 +145,7 @@ body {
 }
 
 #hashtag_drunk {
-    background-image: url(images/hashtag_drunk.svg);
+    background-image: url(images/hashtags/hashtag_drunk.svg);
     background-size: 100%;
     position: absolute;
     width: 32vw;
@@ -158,7 +158,7 @@ body {
 }
 
 #hashtag_babysitting {
-    background-image: url(images/hashtag_babysitting.svg);
+    background-image: url(images/hashtags/hashtag_babysitting.svg);
     background-size: 100%;
     position: absolute;
     width: 32vw;
@@ -169,7 +169,7 @@ body {
 }
 
 #hashtag_toilet {
-    background-image: url(images/hashtag_toilet.svg);
+    background-image: url(images/hashtags/hashtag_toilet.svg);
     background-size: 100%;
     position: absolute;
     width: 32vw;
@@ -180,7 +180,7 @@ body {
 }
 
 #hashtag_ferie {
-    background-image: url(images/hashtag_ferie.svg);
+    background-image: url(images/hashtags/hashtag_ferie.svg);
     background-size: 100%;
     position: absolute;
     width: 32vw;
