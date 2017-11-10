@@ -63,6 +63,7 @@ body {
     height: 80vw;
     top: 10.1vw;
     left: 26.4vw;
+    transform-origin: 25% 25%;
 }
 
 
