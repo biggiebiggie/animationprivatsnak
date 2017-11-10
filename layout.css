@@ -43,17 +43,23 @@ body {
     left: 29.3vw;
 }
 
-/*
+#login_container {
+    position: absolute;
+    width: 47vw;
+    height: 47vw;
+    top: 8.8vw;
+    left: 25vw;
+}
+
 #loginsprite {
-    background-image: url(images/startsprite.svg);
+    background-image: url(images/loginsprite.svg);
     background-size: 1500%;
     position: absolute;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 
 
 }
-*/
 
 #start_billede {
     background-image: url(images/instagrambilleder/klassebillede.svg);
@@ -184,7 +190,7 @@ body {
 /*ROSBOKSE*/
 
 #ros1 {
-    background-image: url(images/);
+    background-image: url(images/faktabokse/ros2.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
@@ -311,8 +317,8 @@ body {
 
 .login_cycle {
     animation-name: login_cycle;
-    animation-duration: 5s;
-    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-timing-function: steps(14);
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -322,7 +328,7 @@ body {
         background-position: 0% 0%;
     }
     100% {
-        background-position: -1500% 0%;
+        background-position: -1400% 0%;
     }
 }
 

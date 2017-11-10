@@ -18,8 +18,8 @@ var info = ["#info1", "#info2", "#info3", "#info4", "#info5"];
 
 
 function sidenErLoadet() {
-    console.log("siden er loadet - startbillede fader ind");
-    //$("#startsprite").addClass("login_cycle");
+    console.log("siden er loadet - logincycle begynder");
+    $("#loginsprite").addClass("login_cycle");
 
     $("#loginknap").on("click", visBillede);
 }
@@ -36,6 +36,10 @@ function startBillede() {
 function visBillede() {
     console.log("Første billede: klassebillede fader ind");
 
+    $("#loginsprite").removeClass("login_cycle");
+    $("#loginsprite").hide();
+    $("#loginknap").hide();
+
     $("#loginknap").off("click", visBillede);
 
     console.log("billede[billedeNr]:", billede[billedeNr]);
@@ -43,8 +47,6 @@ function visBillede() {
     $(hashtag[billedeNr]).addClass("fade");
 
     $("#klasse_billede").on("animationend", tagValg);
-
-
 }
 
 // TAG VALG
@@ -68,106 +70,37 @@ function tagValg() {
 
 function klikDel() {
     console.log("Bruger vælger at dele");
-
-    $(billede[billedeNr]).hide();
     //remove puls
 
-    $("#info1").addClass("fade");
+    $(info[billedeNr]).addClass("fade");
 
+    setTimeout(klikIteration, 5000);
 }
+
 
 //DEL IKKE
 
 function klikLuk() {
     console.log("Bruger vælger IKKE at dele");
 
-    $(billede[billedeNr]).removeClass("fade");
+    $(ros[billedeNr]).addClass("fade");
     //remove puls
-
-    $("#ros1").addClass("fade");
+    setTimeout(klikIteration, 5000);
 
 }
 
 
 
 function klikIteration() {
+    console.log("iteraterer");
+    $(hashtag[billedeNr]).hide();
+    $(ros[billedeNr]).hide();
+    $(info[billedeNr]).hide();
+
     billedeNr++;
     visBillede();
 }
 
 
 
-//// ANDET BILLEDE
-//
-//
-//function andetBillede() {
-//    console.log("Andet billede: druktursbillede fader ind");
-//
-//    $("#klasse_billede").removeClass("fade");
-//
-//    $("#druktur_billede").addClass("fade");
-//
-//    $("druktur_billede").on("animationend", tagValg);
-//}
-//
-//function klikDel2() {
-//    console.log("Bruger vælger at dele 2");
-//}
-//
-//function klikKryds2() {
-//    console.log("Bruger vælger IKKE at dele 2");
-//}
-//
-//
-////TREDJE BILLEDE
-//
-//function tredjeBillede() {
-//    console.log("Tredje billede: babysitting-billede fader ind");
-//    $("#babysitting_billede").on("animationend", tagValg);
-//}
-//
-//function klikDel3() {
-//    console.log("Bruger vælger at dele 3");
-//}
-//
-//function klikKryds3() {
-//    console.log("Bruger vælger IKKE at dele 3");
-//}
-//
-//
-////FJERDE BILLEDE
-//
-//function fjerdeBillede() {
-//    console.log("Fjerde billede: toilet-billede fader ind");
-//}
-//
-//function klikDel4() {
-//    console.log("Bruger vælger at dele 4");
-//}
-//
-//function klikKryds4() {
-//    console.log("Bruger vælger IKKE at dele 4");
-//}
-//
-//
-////FEMTE BILLEDE
-//
-//function femteBillede() {
-//    console.log("Femte billede: rejse-billede fader ind");
-//}
-//
-//function klikDel5() {
-//    console.log("Bruger vælger at dele 5");
-//}
-//
-//function klikKryds5() {
-//    console.log("Bruger vælger IKKE at dele 5");
-//}
-
-
-//RESULTAT
-
 function resultat() {}
-
-
-//sekvensdiagram skal opdateres med tællere og flag + navne
