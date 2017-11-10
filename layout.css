@@ -37,10 +37,10 @@ body {
 
 #billede_container {
     position: absolute;
-    width: 100vw;
-    height: 80vw;
-    top: 10vw;
-    left: 26.4vw;
+    width: 40.1vw;
+    height: 35.6vw;
+    top: 12.5vw;
+    left: 29.3vw;
 }
 
 /*
@@ -133,9 +133,9 @@ body {
 #hashtag_container {
     position: absolute;
     width: 32vw;
-    height: 4vw;
-    top: 50.6vw;
-    left: 33.5vw;
+    height: 3vw;
+    top: 51.5vw;
+    left: 35vw;
 }
 
 #hashtag_klassebillede {
@@ -155,7 +155,6 @@ body {
     height: 100%;
     opacity: 0;
 
-    /*der er en "-" i hashtagget og mangler noget i det ene tag - gælder resten af hashtags'ne*/
 }
 
 #hashtag_babysitting {
@@ -323,10 +322,10 @@ body {
 
 @keyframes login_cycle {
     0% {
-        background-position: 0 0;
+        background-position: 0% 0%;
     }
     100% {
-        background-position: 0 -1500%;
+        background-position: -1500% 0%;
     }
 }
 

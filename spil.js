@@ -19,7 +19,7 @@ var info = ["#info1", "#info2", "#info3", "#info4", "#info5"];
 
 function sidenErLoadet() {
     console.log("siden er loadet - startbillede fader ind");
-    $("#startsprite").addClass("login_cycle");
+    //$("#startsprite").addClass("login_cycle");
 
     $("#loginknap").on("click", visBillede);
 }
