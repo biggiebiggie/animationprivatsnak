@@ -44,7 +44,7 @@ body {
 }
 
 /*
-#startsprite {
+#loginsprite {
     background-image: url(images/startsprite.svg);
     background-size: 1500%;
     position: absolute;
@@ -109,7 +109,7 @@ body {
 }
 
 #toilet_billede {
-    background-image: url(images/);
+    background-image: url(images/toilet.svg);
     background-size: 100%;
     position: absolute;
     width: 100%;
@@ -130,25 +130,29 @@ body {
 
 /*HASHTAGS*/
 
+#hashtag_container {
+    position: absolute;
+    width: 32vw;
+    height: 4vw;
+    top: 50.6vw;
+    left: 33.5vw;
+}
+
 #hashtag_klassebillede {
     background-image: url(images/hashtags/hashtag_klassebillede.svg);
     background-size: 100%;
     position: absolute;
-    width: 32vw;
-    height: 4vw;
-    top: 50.6vw;
-    left: 33.5vw;
+    width: 100%;
+    height: 100%;
     opacity: 0;
 }
 
-#hashtag_drunk {
+#hashtag_druk {
     background-image: url(images/hashtags/hashtag_drunk.svg);
     background-size: 100%;
     position: absolute;
-    width: 32vw;
-    height: 4vw;
-    top: 50.6vw;
-    left: 33.5vw;
+    width: 100%;
+    height: 100%;
     opacity: 0;
 
     /*der er en "-" i hashtagget og mangler noget i det ene tag - gælder resten af hashtags'ne*/
@@ -158,10 +162,8 @@ body {
     background-image: url(images/hashtags/hashtag_babysitting.svg);
     background-size: 100%;
     position: absolute;
-    width: 32vw;
-    height: 4vw;
-    top: 50.6vw;
-    left: 33.5vw;
+    width: 100%;
+    height: 100%;
     opacity: 0;
 }
 
@@ -169,10 +171,8 @@ body {
     background-image: url(images/hashtags/hashtag_toilet.svg);
     background-size: 100%;
     position: absolute;
-    width: 32vw;
-    height: 4vw;
-    top: 50.6vw;
-    left: 33.5vw;
+    width: 100%;
+    height: 100%;
     opacity: 0;
 }
 
@@ -180,10 +180,8 @@ body {
     background-image: url(images/hashtags/hashtag_ferie.svg);
     background-size: 100%;
     position: absolute;
-    width: 32vw;
-    height: 4vw;
-    top: 50.6vw;
-    left: 33.5vw;
+    width: 100%;
+    height: 100%;
     opacity: 0;
 }
 
