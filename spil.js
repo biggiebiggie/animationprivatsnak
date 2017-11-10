@@ -1,11 +1,14 @@
 $(window).on("load", sidenErLoadet);
 
 var billedeNr = 0;
-var klikket5Billeder = false;
+
+//var klikket5Billeder = false;
 
 
 
 var billede = ["#klasse_billede", "#druk_billede", "#babysitting_billede", "#toilet_billede", "#ferie_billede"];
+
+var hashtag = ["#hashtag_klassebillede", "#hashtag_druk", "#hashtag_babysitting", "#hashtag_toilet", "#hashtag_ferie"];
 
 var ros = ["#ros1", "#ros2", "#ros3", "#ros4", "#ros5"];
 
@@ -23,8 +26,9 @@ function sidenErLoadet() {
 
 
 //STARTBILLEDE
-console.log("startbillede fader ind med sprite for login");
-
+function startBillede() {
+    console.log("startbillede fader ind med sprite for login");
+}
 
 
 // VIS BILLEDE
@@ -36,7 +40,7 @@ function visBillede() {
 
     console.log("billede[billedeNr]:", billede[billedeNr]);
     $(billede[billedeNr]).addClass("fade");
-    //effekter med knapper skal lægges ind
+    $(hashtag[billedeNr]).addClass("fade");
 
     $("#klasse_billede").on("animationend", tagValg);
 
@@ -49,6 +53,8 @@ function tagValg() {
     console.log("knapperne pulser");
 
     //$("#klasse_billede").off("animationend", tagValg);
+
+    //effekter med knapper skal lægges ind
 
     $("#delknap").on("click", klikDel);
     $("#lukknap").on("click", klikLuk);
