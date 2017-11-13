@@ -93,6 +93,16 @@ h3 {
     text-transform: uppercase;
 }
 
+h4 {
+    font-family: "futura-pt";
+    font-weight: 300;
+    font-style: normal;
+    color: #ffffff;
+    margin: 0;
+    padding: 0 0 5px 0;
+    text-transform: uppercase;
+}
+
 ul {
     font-family: "futura-pt";
     font-weight: 300;
