@@ -20,7 +20,7 @@ var info = ["#info1", "#info2", "#info3", "#info4", "#info5"];
 function sidenErLoadet() {
     console.log("siden er loadet - logincycle begynder");
 
-    $("#taste_lyd")[0].play();
+//    $("#taste_lyd")[0].play();
 
     $("#lukknap").hide();
 
