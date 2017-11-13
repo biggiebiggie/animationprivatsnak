@@ -62,18 +62,33 @@ body {
 }
 
 #start_billede {
-    background-image: url(images/Start/Start-side.svg);
+    background-image: url(images/Start/start.svg);
+    background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0;
 
-    /* skal laves om når billederne virker*/
 }
 
 
 /*Mangler ikoner + hover-ikoner*/
+
+#startknap {
+    position: absolute;
+    background-image: url(images/Start/Start-knap.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 5vw;
+    top: 23vw;
+    left: 15vw;
+    z-index: 1;
+}
+
+.hidden {
+    opacity: 0;
+}
 
 #loginknap {
     position: absolute;
@@ -87,10 +102,6 @@ body {
     z-index: 1;
     cursor: pointer;
 
-}
-
-#loginknap:hover {
-    transform: scale(1.1);
 }
 
 #lukknap {
@@ -124,7 +135,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0;
 }
 
 
@@ -134,8 +144,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-
-    opacity: 0;
 }
 
 #babysitting_billede {
@@ -144,8 +152,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-
-    opacity: 0;
 }
 
 #toilet_billede {
@@ -154,8 +160,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-
-    opacity: 0;
 }
 
 #ferie_billede {
@@ -164,8 +168,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-
-    opacity: 0;
 }
 
 /*HASHTAGS*/
@@ -184,7 +186,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0;
 }
 
 #hashtag_druk {
@@ -193,8 +194,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0;
-
 }
 
 #hashtag_babysitting {
@@ -203,7 +202,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0;
 }
 
 #hashtag_toilet {
@@ -212,7 +210,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0;
 }
 
 #hashtag_ferie {
@@ -221,7 +218,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0;
 }
 
 /*ROSBOKSE*/
@@ -232,7 +228,6 @@ body {
     position: absolute;
     width: 30vw;
     height: 20.2vw;
-    opacity: 0;
     top: 20vw;
     left: 34.5vw;
 }
@@ -243,7 +238,6 @@ body {
     position: absolute;
     width: 30vw;
     height: 20.2vw;
-    opacity: 0;
     top: 20vw;
     left: 34.5vw;
 }
@@ -254,7 +248,6 @@ body {
     position: absolute;
     width: 30vw;
     height: 20.2vw;
-    opacity: 0;
     top: 20vw;
     left: 34.5vw;
 }
@@ -265,7 +258,6 @@ body {
     position: absolute;
     width: 30vw;
     height: 20.2vw;
-    opacity: 0;
     top: 20vw;
     left: 34.5vw;
 }
@@ -276,7 +268,6 @@ body {
     position: absolute;
     width: 30vw;
     height: 20.2vw;
-    opacity: 0;
     top: 20vw;
     left: 34.5vw;
 }
@@ -289,7 +280,6 @@ body {
     position: absolute;
     width: 30vw;
     height: 20.2vw;
-    opacity: 0;
     top: 20vw;
     left: 34.5vw;
 }
@@ -301,7 +291,6 @@ body {
     position: absolute;
     width: 30vw;
     height: 20.2vw;
-    opacity: 0;
     top: 20vw;
     left: 34.5vw;
 }
@@ -312,7 +301,6 @@ body {
     position: absolute;
     width: 30vw;
     height: 20.2vw;
-    opacity: 0;
     top: 20vw;
     left: 34.5vw;
 }
@@ -323,7 +311,6 @@ body {
     position: absolute;
     width: 30vw;
     height: 20.2vw;
-    opacity: 0;
     top: 20vw;
     left: 34.5vw;
 }
@@ -334,7 +321,6 @@ body {
     position: absolute;
     width: 30vw;
     height: 20.2vw;
-    opacity: 0;
     top: 20vw;
     left: 34.5vw;
 }
@@ -347,7 +333,6 @@ body {
     position: absolute;
     width: 30vw;
     height: 30vw;
-    opacity: 0;
 }
 
 /*SPRITE ANIMATION*/
@@ -398,18 +383,18 @@ body {
 /*PULS ANIMATION*/
 
 .puls {
-	animation-name: pulse_kf;
-	animation-duration: 1s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	animation-direction: alternate-reverse;
+    animation-name: pulse_kf;
+    animation-duration: 0.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 @keyframes pulse_kf {
-	0% {
-		transform: scale(0);
-	}
-	100% {
-		transform: scale(1.5);
-	}
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
 }
