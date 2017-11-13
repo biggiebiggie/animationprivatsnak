@@ -148,7 +148,7 @@ nav {
 
 .titel {
     flex-basis: 200px;
-    flex-grow: 1;
+    flex-grow: 2;
     text-align: center;
     border-radius: 60px;
     background-color: #202532;
@@ -158,6 +158,7 @@ nav {
 
 .logo {
     flex-basis: 100px;
+    flex-grow: 1;
     padding: 15px;
 }
 
