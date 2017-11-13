@@ -22,6 +22,9 @@ function sidenErLoadet() {
     $("#loginsprite").addClass("login_cycle");
 
     $("#loginknap").on("click", visBillede);
+
+    $("#lukknap").hide();
+    $("#delknap").hide();
 }
 
 
@@ -57,6 +60,9 @@ function tagValg() {
     //$("#klasse_billede").off("animationend", tagValg);
 
     //effekter med knapper skal lægges ind
+
+    $("#lukknap").show();
+    $("#delknap").show();
 
     $("#delknap").addClass("fade", "puls");
     $("#lukknap").addClass("fade", "puls");
