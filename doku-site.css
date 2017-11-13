@@ -13,21 +13,21 @@ body {
 
 /*GENERELT*/
 
-	/*breaks mellemrum*/
+/*breaks mellemrum*/
 
 .column {
-	flex-basis: 400px;
-	margin: 0 2vw 2vw 2vw;
+    flex-basis: 400px;
+    margin: 0 2vw 2vw 2vw;
 }
 
 br {
-	line-height: 200%;
+    line-height: 200%;
 }
 
 .container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -73,22 +73,24 @@ h2 {
     font-family: "futura-pt";
     font-weight: 600;
     font-style: normal;
-	margin-bottom: 1vw;
+    margin-bottom: 1vw;
     font-size: 3vw;
     color: #ffffff;
     text-align: center;
     border-bottom: solid;
     border-width: 5px;
     padding: 0 0 10px 0;
+    text-transform: uppercase;
 }
 
-h4 {
+h3 {
     font-family: "futura-pt";
     font-weight: 400;
     font-style: normal;
     color: #ffffff;
     margin: 0;
     padding: 0 0 5px 0;
+    text-transform: uppercase;
 }
 
 ul {
@@ -143,8 +145,8 @@ nav {
 #indholdsfortegnelse a {
     padding: 5px;
     font-size: 1.5vw;
-	width: 17vw;
-	height: 100%;
+    width: 17vw;
+    height: 100%;
 
     text-decoration: none;
     color: #ffffff;
@@ -165,7 +167,7 @@ nav {
 
 img {
     width: 100%;
-	height: 100%;
+    height: 100%;
     border-radius: 30px;
 
 }
@@ -203,45 +205,57 @@ img {
 /*HISTORIE*/
 
 /*PERSONA*/
+
 #persona .container {
-	display: block;
+    display: block;
 }
 
 #persona .column_content {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#persona .right, #persona .left {
-	margin: 1vw;
-	flex-basis: 400px;
+#persona .right,
+#persona .left {
+    margin: 1vw;
+    flex-basis: 400px;
 }
 
 /* pige fast størrelse */
+
 #persona .column_top .right {
-	height: 400px;
-	width: 400px;
+    height: 400px;
+    width: 400px;
 }
 
 /*Moodboard*/
 
 #moodboard .img {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 /*Stylestile*/
 
 #styletile .top img {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 /*Layoutdiagram*/
 
 #layoutdiagram {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
+#layoutdiagram .container {
+    display: block;
+}
+
+#layoutdiagram .top .bottom {
+    width: 100%;
+    height: 100%;
+
+}
