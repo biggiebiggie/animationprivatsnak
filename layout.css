@@ -149,7 +149,7 @@ body {
 }
 
 #toilet_billede {
-    background-image: url(images/instagrambilleder/toilet.svg);
+    background-image: url(images/instagrambilleder/rejse_insta.svg);
     background-size: 100%;
     position: absolute;
     width: 100%;
@@ -207,7 +207,7 @@ body {
 }
 
 #hashtag_toilet {
-    background-image: url(images/hashtags/hashtag_toilet.svg);
+    background-image: url(images/hashtags/rejse.svg);
     background-size: 100%;
     position: absolute;
     width: 100%;
