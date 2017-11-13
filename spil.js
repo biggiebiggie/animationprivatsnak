@@ -58,6 +58,7 @@ function tagValg() {
 
     //effekter med knapper skal lægges ind
 
+
     $("#delknap").addClass("fade", "puls");
     $("#lukknap").addClass("fade", "puls");
 
