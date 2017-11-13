@@ -224,7 +224,17 @@ img {
 	width: 400px;
 }
 
-/* Stylestile */
+/*Moodboard*/
+#moodboard .container {
+	width: 50vw;
+	height: 50vw;
+}
+
+#moodboard .img {
+	width: 100%;
+	height: 100%;
+}
+/*Stylestile*/
 #styletile .top img {
 	width: 100%;
 	height: 100%;
