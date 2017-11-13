@@ -72,7 +72,7 @@ body {
 }
 
 
-/*Mangler ikoner + hover-ikoner*/
+
 
 #startknap {
     position: absolute;
@@ -128,6 +128,52 @@ body {
     left: 72vw;
     cursor: pointer;
 }
+
+#funktion_soeg {
+    position: absolute;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 3.8vw;
+    left: 67.6vw;
+    top: 2.9vw;
+}
+
+#funktion_soeg:hover {
+    background-image: url(images/ikoner/find_ikon.svg);
+}
+
+#funktion_hjerte {
+    position: absolute;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 3.8vw;
+    left: 71.1vw;
+    top: 2.8vw;
+}
+
+#funktion_hjerte:hover {
+    background-image: url(images/ikoner/like_ikon.svg);
+}
+
+#funktion_profil {
+    position: absolute;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 3.8vw;
+    left: 74.8vw;
+    top: 3.1vw;
+}
+
+#funktion_profil:hover {
+    background-image: url(images/ikoner/profil_ikon.svg);
+}
+
 
 #klasse_billede {
     background-image: url(images/instagrambilleder/klassebillede.svg);
