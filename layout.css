@@ -52,7 +52,7 @@ body {
 }
 
 #loginsprite {
-    background-image: url(images/sprite_rigtige.png);
+    background-image: url(images/sprite_rigtige@2x.png);
     background-size: 1500%;
     position: absolute;
     width: 100%;
