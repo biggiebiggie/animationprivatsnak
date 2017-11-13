@@ -1,4 +1,54 @@
-<?xml version="1.0" standalone="yes"?>
-
-<svg version="1.1" viewBox="0.0 0.0 960.0 540.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="g2856bbafa9_2_27.0"><path d="m0 0l960.0 0l0 540.0l-960.0 0l0 -540.0z" clip-rule="nonzero"></path></clipPath><g clip-path="url(#g2856bbafa9_2_27.0)"><path fill="#000000" fill-opacity="0.0" d="m0 0l960.0 0l0 540.0l-960.0 0z" fill-rule="evenodd"></path><path fill="#000000" fill-opacity="0.0" d="m40.0 227.70866l94.69292 0l0 -34.291336l68.58267 68.58267l-68.58267 68.58267l0 -34.29132l-94.69292 0z" fill-rule="evenodd"></path><path stroke="#ffffff" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="butt" d="m40.0 227.70866l94.69292 0l0 -34.291336l68.58267 68.58267l-68.58267 68.58267l0 -34.29132l-94.69292 0z" fill-rule="evenodd"></path><path fill="#000000" fill-opacity="0.0" d="m220.94751 224.50394l94.6929 0l0 -34.291336l68.58267 68.58269l-68.58267 68.58267l0 -34.29135l-94.6929 0z" fill-rule="evenodd"></path><path stroke="#ffffff" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="butt" d="m220.94751 224.50394l94.6929 0l0 -34.291336l68.58267 68.58269l-68.58267 68.58267l0 -34.29135l-94.6929 0z" fill-rule="evenodd"></path><path fill="#000000" fill-opacity="0.0" d="m403.04987 224.44357l94.6929 0l0 -34.291336l68.58267 68.58266l-68.58267 68.5827l0 -34.29135l-94.6929 0z" fill-rule="evenodd"></path><path stroke="#ffffff" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="butt" d="m403.04987 224.44357l94.6929 0l0 -34.291336l68.58267 68.58266l-68.58267 68.5827l0 -34.29135l-94.6929 0z" fill-rule="evenodd"></path><path fill="#000000" fill-opacity="0.0" d="m587.04987 224.44357l94.69293 0l0 -34.291336l68.58264 68.58266l-68.58264 68.5827l0 -34.29135l-94.69293 0z" fill-rule="evenodd"></path><path stroke="#ffffff" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="butt" d="m587.04987 224.44357l94.69293 0l0 -34.291336l68.58264 68.58266l-68.58264 68.5827l0 -34.29135l-94.69293 0z" fill-rule="evenodd"></path><path fill="#000000" fill-opacity="0.0" d="m763.04987 224.44357l94.69293 0l0 -34.291336l68.58264 68.58266l-68.58264 68.5827l0 -34.29135l-94.69293 0z" fill-rule="evenodd"></path><path stroke="#ffffff" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="butt" d="m763.04987 224.44357l94.69293 0l0 -34.291336l68.58264 68.58266l-68.58264 68.5827l0 -34.29135l-94.69293 0z" fill-rule="evenodd"></path><path fill="#000000" fill-opacity="0.0" d="m-10.666667 -1.3333334l10.677166 0l0 20.0l-10.677166 0z" fill-rule="evenodd"></path></g></svg>
-
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 366.8" style="enable-background:new 0 0 960 366.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill-opacity:0;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;}
+	.st4{fill:#FCFCFC;}
+	.st5{font-family:'FuturaPT-Heavy';}
+	.st6{font-size:28px;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="0" y="-85.8" width="960" height="540"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<path class="st1" d="M0-85.8h960v540H0V-85.8z"/>
+		<path class="st1" d="M40,141.9h94.7v-34.3l68.6,68.6l-68.6,68.6v-34.3H40V141.9z"/>
+		<path class="st2" d="M40,141.9h94.7v-34.3l68.6,68.6l-68.6,68.6v-34.3H40V141.9z"/>
+		<path class="st1" d="M220.9,138.7h94.7v-34.3l68.6,68.6l-68.6,68.6v-34.3h-94.7V138.7z"/>
+		<path class="st2" d="M220.9,138.7h94.7v-34.3l68.6,68.6l-68.6,68.6v-34.3h-94.7V138.7z"/>
+		<path class="st1" d="M403,138.6h94.7v-34.3l68.6,68.6l-68.6,68.6v-34.3H403V138.6z"/>
+		<path class="st2" d="M403,138.6h94.7v-34.3l68.6,68.6l-68.6,68.6v-34.3H403V138.6z"/>
+		<path class="st1" d="M587,138.6h94.7v-34.3l68.6,68.6l-68.6,68.6v-34.3H587V138.6z"/>
+		<path class="st2" d="M587,138.6h94.7v-34.3l68.6,68.6l-68.6,68.6v-34.3H587V138.6z"/>
+		<path class="st1" d="M763,138.6h94.7v-34.3l68.6,68.6l-68.6,68.6v-34.3H763V138.6z"/>
+		<path class="st2" d="M763,138.6h94.7v-34.3l68.6,68.6l-68.6,68.6v-34.3H763V138.6z"/>
+		<path class="st1" d="M-10.7-87.1H0v20h-10.7V-87.1z"/>
+	</g>
+</g>
+<rect x="52.4" y="149.6" class="st3" width="96.9" height="31"/>
+<text transform="matrix(1 0 0 1 52.3607 169.9973)" class="st4 st5 st6">HVEM</text>
+<rect x="149.1" y="261.1" class="st3" width="96.9" height="31"/>
+<text transform="matrix(1 0 0 1 149.1156 281.5194)" class="st4 st5 st6">SIGER</text>
+<rect x="231.5" y="146.8" class="st3" width="96.9" height="31"/>
+<text transform="matrix(1 0 0 1 231.5143 167.23)" class="st4 st5 st6">HVAD</text>
+<rect x="352" y="261.7" class="st3" width="96.9" height="31"/>
+<text transform="matrix(1 0 0 1 351.9819 282.1085)" class="st4 st5 st6">TIL</text>
+<rect x="709.5" y="258.3" class="st3" width="96.9" height="31"/>
+<text transform="matrix(1 0 0 1 709.522 278.7522)" class="st4 st5 st6">MED</text>
+<rect x="512.5" y="259.5" class="st3" width="143.6" height="31"/>
+<text transform="matrix(1 0 0 1 512.4777 279.9303)" class="st4 st5 st6">IGENNEM</text>
+<rect x="412.1" y="146.2" class="st3" width="133.5" height="57.2"/>
+<text transform="matrix(1 0 0 1 412.0789 166.64)" class="st4 st5 st6">HVEM </text>
+<rect x="597.4" y="145.7" class="st3" width="141.4" height="66.7"/>
+<text transform="matrix(1 0 0 1 597.4108 166.1058)"><tspan x="0" y="0" class="st4 st5 st6">HVILKEN </tspan><tspan x="0" y="33.6" class="st4 st5 st6">KANAL</tspan></text>
+<rect x="773.2" y="146.3" class="st3" width="154.1" height="74.7"/>
+<text transform="matrix(1 0 0 1 773.2077 166.6947)"><tspan x="0" y="0" class="st4 st5 st6">HVILKEN </tspan><tspan x="0" y="33.6" class="st4 st5 st6">EFFEKT</tspan></text>
+</svg>
