@@ -73,7 +73,7 @@ body {
 }
 
 
-/*Mangler ikoner + hover-ikoner*/
+
 
 #loginknap {
     position: absolute;
@@ -117,6 +117,52 @@ body {
     left: 72vw;
     cursor: pointer;
 }
+
+#funktion_soeg {
+    position: absolute;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 3.8vw;
+    left: 67.6vw;
+    top: 2.9vw;
+}
+
+#funktion_soeg:hover {
+    background-image: url(images/ikoner/find_ikon.svg);
+}
+
+#funktion_hjerte {
+    position: absolute;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 3.8vw;
+    left: 71.1vw;
+    top: 2.8vw;
+}
+
+#funktion_hjerte:hover {
+    background-image: url(images/ikoner/like_ikon.svg);
+}
+
+#funktion_profil {
+    position: absolute;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 3.8vw;
+    left: 74.8vw;
+    top: 3.1vw;
+}
+
+#funktion_profil:hover {
+    background-image: url(images/ikoner/profil_ikon.svg);
+}
+
 
 #klasse_billede {
     background-image: url(images/instagrambilleder/klassebillede.svg);
@@ -207,7 +253,7 @@ body {
 }
 
 #hashtag_toilet {
-    background-image: url(images/hashtags/hashtag_toilet.svg);
+    background-image: url(images/hashtags/rejse.svg);
     background-size: 100%;
     position: absolute;
     width: 100%;
@@ -397,4 +443,19 @@ body {
 
 /*PULS ANIMATION*/
 
-.puls {}
+.puls {
+	animation-name: pulse_kf;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes pulse_kf {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1.5);
+	}
+}

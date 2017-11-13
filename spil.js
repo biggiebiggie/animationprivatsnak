@@ -19,12 +19,22 @@ var info = ["#info1", "#info2", "#info3", "#info4", "#info5"];
 
 function sidenErLoadet() {
     console.log("siden er loadet - logincycle begynder");
+
+	$("#lukknap").hide();
+    $("#delknap").hide();
+
     $("#loginsprite").addClass("login_cycle");
 
-    $("#loginknap").on("click", visBillede);
+    $("#loginsprite").on("animationend", login);
 
-    $("#lukknap").hide();
-    $("#delknap").hide();
+
+}
+
+function login() {
+	console.log("Login aktiv og pulser");
+
+	$("#loginknap").on("click", visBillede);
+	$("#loginknap").addClass("puls");
 }
 
 
