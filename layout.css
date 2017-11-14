@@ -110,6 +110,13 @@ p {
     left: 29.3vw;
 }
 
+#boks_container {
+    position: absolute;
+    width: 25.5vw;
+    height: 23vw;
+    top: 19vw;
+    left: 37vw;
+}
 
 /* LOGIN */
 
@@ -299,10 +306,8 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 25.5vw;
-    height: 26vw;
-    top: 18vw;
-    left: 35vw;
+    width: 100%;
+    height: 100%;
 }
 
 #ros2 {
@@ -310,10 +315,8 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 25.5vw;
-    height: 26vw;
-    top: 18vw;
-    left: 34.5vw;
+    width: 100%;
+    height: 100%;
 }
 
 #ros3 {
@@ -321,10 +324,8 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 25.5vw;
-    height: 26vw;
-    top: 18vw;
-    left: 34.5vw;
+    width: 100%;
+    height: 100%;
 }
 
 #ros4 {
@@ -332,10 +333,8 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 25.5vw;
-    height: 26vw;
-    top: 18vw;
-    left: 34.5vw;
+    width: 100%;
+    height: 100%;
 }
 
 #ros5 {
@@ -343,10 +342,8 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 25.5vw;
-    height: 26vw;
-    top: 18vw;
-    left: 34.5vw;
+    width: 100%;
+    height: 100%;
 }
 
 /*INFOBOKSE*/
@@ -356,10 +353,8 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 25.5vw;
-    height: 26vw;
-    top: 18vw;
-    left: 36vw;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -368,10 +363,8 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 25.5vw;
-    height: 26vw;
-    top: 18vw;
-    left: 34.5vw;
+    width: 100%;
+    height: 100%;
 }
 
 #info3 {
@@ -379,10 +372,8 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 25.5vw;
-    height: 26vw;
-    top: 18vw;
-    left: 34.5vw;
+    width: 100%;
+    height: 100%;
 }
 
 #info4 {
@@ -390,10 +381,8 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 25.5vw;
-    height: 26vw;
-    top: 18vw;
-    left: 34.5vw;
+    width: 100%;
+    height: 100%;
 }
 
 #info5 {
@@ -401,10 +390,8 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 25.5vw;
-    height: 26vw;
-    top: 18vw;
-    left: 34.5vw;
+    width: 100%;
+    height: 100%;
 }
 
 /*RESULTATSIDE*/
