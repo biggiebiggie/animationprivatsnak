@@ -197,7 +197,7 @@ body {
     height: 100%;
 }
 
-#toilet_billede {
+#rejse_billede {
     background-image: url(images/instagrambilleder/rejse_insta.svg);
     background-size: 100%;
     position: absolute;
@@ -330,7 +330,7 @@ body {
 width: 25.5vw;
     height: 26vw;
     top: 18vw;
-    left: 34.5vw;
+    left: 36vw;
 }
 
 
@@ -384,8 +384,8 @@ width: 25.5vw;
     background-image: url(images/payoff/payoff2.svg);
     background-size: 100%;
     position: absolute;
-    width: 30vw;
-    height: 30vw;
+    width: 100%;
+    height: 100%;
 }
 
 #ikon_telefon{
@@ -425,7 +425,7 @@ width: 25.5vw;
     animation-duration: 2s;
     animation-timing-function: steps(14);
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation-fill-mode: both;
 }
 
 @keyframes login_cycle {
