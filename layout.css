@@ -305,6 +305,7 @@ p {
     background-image: url(images/knapper/okknap.svg);
     background-size: 100%;
     position: absolute;
+    cursor: pointer;
     width: 3vw;
     height: 3vw;
     top: 13.5vw;

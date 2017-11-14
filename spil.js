@@ -151,6 +151,8 @@ function klikIteration() {
 
     $("#delknap").off("click", klikDel);
     $("#lukknap").off("click", klikLuk);
+    $("#okknap").off("click", klikIteration);
+    $("#okknap").removeClass("fade").addClass("hidden");
     $(hashtag[billedeNr]).hide();
     $(ros[billedeNr]).hide();
     $(info[billedeNr]).hide();
