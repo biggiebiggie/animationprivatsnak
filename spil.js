@@ -19,14 +19,8 @@ function sidenErLoadet() {
     console.log("siden er loadet - logincycle begynder");
 
     //    $("#taste_lyd")[0].play();
-<<<<<<< HEAD
-   $("#loginsprite").removeClass("hidden").addClass("login_cycle");
-	$("#baggrund").removeClass("hidden");
-=======
-
     $("#loginsprite").removeClass("hidden").addClass("login_cycle");
     $("#baggrund").removeClass("hidden");
->>>>>>> origin/master
 
     $("#loginsprite").on("animationend", login);
 }
@@ -146,7 +140,7 @@ function klikLuk() {
 function klikIteration() {
     console.log("itererer");
 
-	$("#delknap").off("click", klikDel);
+    $("#delknap").off("click", klikDel);
     $("#lukknap").off("click", klikLuk);
     $(hashtag[billedeNr]).hide();
     $(ros[billedeNr]).hide();
