@@ -7,9 +7,9 @@ var ikkeDelt = 0;
 //var klikket5Billeder = false;
 
 
-var billede = ["#klasse_billede", "#druk_billede", "#babysitting_billede", "#rejse_billede", "#ferie_billede"];
+var billede = ["#klasse_billede", "#druk_billede", "#rejse_billede", "#babysitting_billede", "#ferie_billede"];
 
-var hashtag = ["#hashtag_klassebillede", "#hashtag_druk", "#hashtag_babysitting", "#hashtag_toilet", "#hashtag_ferie"];
+var hashtag = ["#hashtag_klassebillede", "#hashtag_druk", "#hashtag_rejse", "#hashtag_babysitting", "#hashtag_ferie"];
 
 var ros = ["#ros1", "#ros2", "#ros3", "#ros4", "#ros5"];
 

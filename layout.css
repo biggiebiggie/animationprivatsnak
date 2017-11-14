@@ -3,9 +3,17 @@ body {
     padding: 0;
 }
 
+/*
 p {
     color: #fff;
 }
+*/
+
+.hidden {
+    display: none;
+}
+
+/* SCENEN MED BAGGRUND */
 
 #scene {
     width: 100vw;
@@ -37,96 +45,6 @@ p {
     left: 24vw;
 }
 
-#billede_container {
-    position: absolute;
-    width: 40.1vw;
-    height: 35.6vw;
-    top: 12.5vw;
-    left: 29.3vw;
-}
-
-#login_container {
-    position: absolute;
-    width: 47vw;
-    height: 47vw;
-    top: 8.7vw;
-    left: 25vw;
-}
-
-#loginsprite {
-    background-image: url(images/loginsprite.png);
-    background-size: 1500%;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-
-
-}
-
-#start_billede {
-    background-image: url(images/Start/start_billede.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-#startknap {
-    position: absolute;
-    background-image: url(images/Start/start_knap.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 8vw;
-    height: 2.5vw;
-    top: 32vw;
-    left: 16.5vw;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.hidden {
-    display: none;
-}
-
-#loginknap {
-    position: absolute;
-    background-image: url(images/knapper/login.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 2vw;
-    width: 20vw;
-    top: 35vw;
-    left: 38.5vw;
-    z-index: 1;
-    cursor: pointer;
-
-}
-
-#lukknap {
-    background-image: url(images/knapper/cross.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    top: 28vw;
-    left: 20vw;
-    cursor: pointer;
-    position: absolute;
-
-}
-
-#delknap {
-    position: absolute;
-    background-image: url(images/knapper/delny.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    top: 28vw;
-    left: 72vw;
-    cursor: pointer;
-}
 
 #funktion_soeg {
     position: absolute;
@@ -173,6 +91,104 @@ p {
     background-image: url(images/ikoner/profil_ikon.svg);
 }
 
+
+/*CONTAINERS*/
+
+#login_container {
+    position: absolute;
+    width: 47vw;
+    height: 47vw;
+    top: 8.7vw;
+    left: 25vw;
+}
+
+#billede_container {
+    position: absolute;
+    width: 40.1vw;
+    height: 35.6vw;
+    top: 12.5vw;
+    left: 29.3vw;
+}
+
+
+/* LOGIN */
+
+#loginsprite {
+    background-image: url(images/loginsprite.png);
+    background-size: 1500%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#loginknap {
+    position: absolute;
+    background-image: url(images/knapper/login.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 2vw;
+    width: 20vw;
+    top: 35vw;
+    left: 38.5vw;
+    z-index: 1;
+    cursor: pointer;
+
+}
+
+/*START BILLEDE*/
+
+#start_billede {
+    background-image: url(images/Start/start_billede.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#startknap {
+    position: absolute;
+    background-image: url(images/Start/start_knap.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 8vw;
+    height: 2.5vw;
+    top: 32vw;
+    left: 16.5vw;
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+/* TAG VALG */
+
+#lukknap {
+    background-image: url(images/knapper/cross.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    top: 28vw;
+    left: 20vw;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+#delknap {
+    position: absolute;
+    background-image: url(images/knapper/delny.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    top: 28vw;
+    left: 72vw;
+    cursor: pointer;
+}
+
+
+/*
 #resultat_boks {
     position: absolute;
     background-color: #f4912d;
@@ -182,7 +198,9 @@ p {
     height: 15vw;
     top: 10vw;
 }
+*/
 
+/* INSTAGRAM BILLEDER */
 
 #klasse_billede {
     background-image: url(images/instagrambilleder/klassebillede.svg);
@@ -191,7 +209,6 @@ p {
     width: 100%;
     height: 100%;
 }
-
 
 #druk_billede {
     background-image: url(images/instagrambilleder/druk.svg);
@@ -259,7 +276,7 @@ p {
     height: 100%;
 }
 
-#hashtag_toilet {
+#hashtag_rejse {
     background-image: url(images/hashtags/rejse.svg);
     background-size: 100%;
     position: absolute;
@@ -278,7 +295,7 @@ p {
 /*ROSBOKSE*/
 
 #ros1 {
-    background-image: url(images/faktabokse/klasseimgrigtig.svg);
+    background-image: url(images/faktabokse/klassebillede_ros.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -289,7 +306,7 @@ p {
 }
 
 #ros2 {
-    background-image: url(images/faktabokse/drukimgrigtig.svg);
+    background-image: url(images/faktabokse/druk_ros.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -300,7 +317,7 @@ p {
 }
 
 #ros3 {
-    background-image: url(images/faktabokse/babyimgrigtig.svg);
+    background-image: url(images/faktabokse/rejse_ros.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -311,7 +328,7 @@ p {
 }
 
 #ros4 {
-    background-image: url(images/faktabokse/Strandimgrigtig.svg);
+    background-image: url(images/faktabokse/babysitting_ros.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -322,7 +339,7 @@ p {
 }
 
 #ros5 {
-    background-image: url(images/faktabokse/lufthavnimgrigtig.svg);
+    background-image: url(images/faktabokse/rejse_ros.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -335,7 +352,7 @@ p {
 /*INFOBOKSE*/
 
 #info1 {
-    background-image: url(images/faktabokse/klasseimgforker.svg);
+    background-image: url(images/faktabokse/klassebillede_info.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -347,7 +364,7 @@ p {
 
 
 #info2 {
-    background-image: url(images/faktabokse/drukimgforkert.svg);
+    background-image: url(images/faktabokse/druk_info.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -358,7 +375,7 @@ p {
 }
 
 #info3 {
-    background-image: url(images/faktabokse/babyimgforkert.svg);
+    background-image: url(images/faktabokse/rejse_info.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -369,7 +386,7 @@ p {
 }
 
 #info4 {
-    background-image: url(images/faktabokse/lufthavnimgforkert.svg);
+    background-image: url(images/faktabokse/babysitting_info.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -380,7 +397,7 @@ p {
 }
 
 #info5 {
-    background-image: url(images/faktabokse/Strandimgforkert.svg);
+    background-image: url(images/faktabokse/ferie_info.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
