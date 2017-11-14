@@ -84,6 +84,7 @@ body {
     top: 23vw;
     left: 15vw;
     z-index: 1;
+    cursor: pointer;
 }
 
 .hidden {

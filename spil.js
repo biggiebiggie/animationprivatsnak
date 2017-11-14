@@ -20,7 +20,7 @@ var info = ["#info1", "#info2", "#info3", "#info4", "#info5"];
 function sidenErLoadet() {
     console.log("siden er loadet - logincycle begynder");
 
-//    $("#taste_lyd")[0].play();
+    //    $("#taste_lyd")[0].play();
 
     $("#lukknap").hide();
 
@@ -36,8 +36,6 @@ function sidenErLoadet() {
 function login() {
     console.log("Login aktiv og pulser");
 
-    $("#loginsprite").removeClass("login_cycle");
-
     $("#loginknap").removeClass("hidden");
     $("#loginknap").addClass("puls");
 
@@ -51,6 +49,7 @@ function startBillede() {
 
     $("#loginknap").off("click", startBillede);
     $("#loginknap").removeClass("puls");
+    $("#loginsprite").removeClass("login_cycle");
 
     $("#loginsprite").hide();
     $("#loginknap").hide();

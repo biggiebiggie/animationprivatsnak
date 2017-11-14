@@ -61,7 +61,7 @@ br {
 
 h1 {
     font-family: "futura-pt";
-    font-weight: 700;
+    font-weight: 900;
     font-style: normal;
     font-size: 5.5vw;
     color: #ffffff;
@@ -85,7 +85,7 @@ h2 {
 
 h3 {
     font-family: "futura-pt";
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     color: #ffffff;
     margin: 0;
@@ -93,9 +93,23 @@ h3 {
     text-transform: uppercase;
 }
 
+#forside h3 {
+    padding: 10px 0 0 10px;
+}
+
 h4 {
     font-family: "futura-pt";
-    font-weight: 300;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+    margin: 0;
+    padding: 0 0 5px 0;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: "futura-pt";
+    font-weight: 500;
     font-style: normal;
     color: #ffffff;
     margin: 0;
@@ -105,7 +119,7 @@ h4 {
 
 ul {
     font-family: "futura-pt";
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     color: #ffffff;
 }
@@ -116,9 +130,17 @@ li {
 
 p {
     font-family: "futura-pt";
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     color: #ffffff;
+}
+
+a {
+    font-family: "futura-pt";
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /**** NAVIGATIONSBARER****/
@@ -134,16 +156,17 @@ nav {
 
 .titel {
     flex-basis: 200px;
-    flex-grow: 1;
+    flex-grow: 2;
     text-align: center;
     border-radius: 60px;
     background-color: #202532;
-    height: 15vw;
+    height: 20vw;
     align-self: center;
 }
 
 .logo {
     flex-basis: 100px;
+    flex-grow: 1;
     padding: 15px;
 }
 
@@ -191,28 +214,53 @@ img {
 .container {
     width: 100%;
     margin: 1vw 0 2vw 0;
-    /*
-    border-radius: 30px;
-    background-image: url(images/flowchart.svg);
-    width: 56vw;
-    height: 30vw;
-    background-repeat: no-repeat;
-        position: relative;
-*/
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.top {
+    padding: 10px;
+}
+
+.bottom {
+    padding: 10px;
+}
+
+.left {
+    padding: 10px;
+}
+
+.right {
+    padding: 10px;
+}
 
 /*FORSIDE*/
 
-#forside .column_bottom {
+#forside .top {
+    /*
+    border-radius: 30px;
+    border: solid;
+    border-color: #e9eced;
+    border-width: 5px;
+*/
+}
+
+#forside .bottom {
     background-color: #f4912d;
     border-radius: 30px;
     border: solid;
     border-color: #e9eced;
     border-width: 5px;
+    width: 30vw;
 }
 
 /*HISTORIE*/
+
+#historie .column {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
 
 /*PERSONA*/
 
@@ -248,24 +296,25 @@ img {
 
 /*Stylestile*/
 
-#styletile .top img {
-    width: 100%;
-    height: 100%;
-}
-
 /*Layoutdiagram*/
-
-#layoutdiagram {
-    width: 100%;
-    height: 100%;
-}
 
 #layoutdiagram .container {
     display: block;
 }
 
-#layoutdiagram .top .bottom {
-    width: 100%;
-    height: 100%;
+/* Assets-liste*/
 
+#assets .left {
+    flex-basis: 400px;
+}
+
+#assets .right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 400px;
+}
+
+#assets .billeder,
+#assets .lyde {
+    flex-basis: 100px;
 }
