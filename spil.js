@@ -2,6 +2,8 @@ $(window).on("load", sidenErLoadet);
 
 var billedeNr = 0;
 
+var ikkeDelt = 0;
+
 //var klikket5Billeder = false;
 
 
@@ -132,6 +134,8 @@ function klikLuk() {
 
     $(ros[billedeNr]).removeClass("hidden").addClass("fade");
 
+    ikkeDelt++;
+
     setTimeout(klikIteration, 5000);
 }
 
@@ -159,6 +163,8 @@ function klikIteration() {
 function resultat() {
     console.log("spil færdig");
 
-    $("#payoff").removeClass("hidden");
-    $("#payoff").show();
+    $("#delknap").removeClass("puls").addClass("hidden");
+    $("#lukknap").removeClass("puls").addClass("hidden");
+
+    $("#payoff").removeClass("hidden").addClass("fade");
 }

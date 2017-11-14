@@ -3,7 +3,9 @@ body {
     padding: 0;
 }
 
-
+p {
+    color: #fff;
+}
 
 #scene {
     width: 100vw;
@@ -169,6 +171,16 @@ body {
 
 #funktion_profil:hover {
     background-image: url(images/ikoner/profil_ikon.svg);
+}
+
+#resultat_boks {
+    position: absolute;
+    background-color: #f4912d;
+    border-radius: 30px;
+    border-color: #ffffff;
+    width: 15vw;
+    height: 15vw;
+    top: 10vw;
 }
 
 
