@@ -163,7 +163,7 @@ p {
 /* TAG VALG */
 
 #lukknap {
-    background-image: url(images/knapper/cross.svg);
+    background-image: url(images/knapper/lukknap.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 5vw;
@@ -177,7 +177,7 @@ p {
 
 #delknap {
     position: absolute;
-    background-image: url(images/knapper/delny.svg);
+    background-image: url(images/knapper/delknap.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 5vw;
