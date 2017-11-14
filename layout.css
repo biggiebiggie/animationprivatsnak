@@ -270,7 +270,7 @@ body {
 /*ROSBOKSE*/
 
 #ros1 {
-    background-image: url(images/faktabokse/ros2.svg);
+    background-image: url(images/faktabokse/.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
