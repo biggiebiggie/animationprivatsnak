@@ -6,7 +6,7 @@ var billedeNr = 0;
 
 
 
-var billede = ["#klasse_billede", "#druk_billede", "#babysitting_billede", "#toilet_billede", "#ferie_billede"];
+var billede = ["#klasse_billede", "#druk_billede", "#babysitting_billede", "#rejse_billede", "#ferie_billede"];
 
 var hashtag = ["#hashtag_klassebillede", "#hashtag_druk", "#hashtag_babysitting", "#hashtag_toilet", "#hashtag_ferie"];
 
