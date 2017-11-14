@@ -22,7 +22,7 @@ function sidenErLoadet() {
     //    $("#taste_lyd")[0].play();
 
     $("#loginsprite").removeClass("hidden").addClass("login_cycle");
-	$("#baggrund").removeClass("hidden");
+    $("#baggrund").removeClass("hidden");
 
     $("#loginsprite").on("animationend", login);
 }
@@ -45,15 +45,25 @@ function startBillede() {
     $("#loginsprite").removeClass("login_cycle").addClass("hidden");
 
     $("#start_billede").removeClass("hidden").addClass("fade");
+
+    $("#start_billede").on("animationend", startknapFader);
+}
+
+function startknapFader() {
+    console.log("Startknap fader");
+
+    $("#start_billede").off("animationend", start);
     $("#startknap").removeClass("hidden").addClass("fade");
 
     $("#startknap").on("animationend", start);
+
 }
 
 function start() {
-    console.log("Start aktiv og pulser");
+    console.log("Startknap pulser");
 
-    $("#startknap").off("animationend", start);
+    $("#start_billede").off("animationend", start);
+
     $("#startknap").removeClass("fade").addClass("puls");
 
     $("#startknap").on("click", visBillede);
@@ -139,16 +149,16 @@ function klikIteration() {
     billedeNr++;
     visBillede();
 
-	if (billedeNr == 5) {
-		resultat();
-	}
+    if (billedeNr == 5) {
+        resultat();
+    }
 }
 
 
 
 function resultat() {
-	console.log("spil færdig");
+    console.log("spil færdig");
 
-	$("#payoff").removeClass("hidden");
-	$("#payoff").show();
+    $("#payoff").removeClass("hidden");
+    $("#payoff").show();
 }
