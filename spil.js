@@ -116,9 +116,10 @@ function klikDel() {
     $("#delknap").removeClass("puls").addClass("hidden");
     $("#lukknap").removeClass("puls").addClass("hidden");
 
+
     $(info[billedeNr]).removeClass("hidden").addClass("fade");
 
-    setTimeout(klikIteration, 5000);
+    setTimeout(okknapFader, 1500);
 }
 
 
@@ -134,9 +135,15 @@ function klikLuk() {
 
     ikkeDelt++;
 
-    setTimeout(klikIteration, 5000);
+    setTimeout(okknapFader, 1500);
 }
 
+function okknapFader() {
+    $("#okknap").removeClass("hidden").addClass("fade");
+
+    $("#okknap").on("click", klikIteration);
+
+}
 
 
 function klikIteration() {

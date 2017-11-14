@@ -299,6 +299,18 @@ p {
     height: 100%;
 }
 
+/*KNAP TIL BOKSE*/
+
+#okknap {
+    background-image: url(images/knapper/okknap.svg);
+    background-size: 100%;
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    top: 13.5vw;
+    left: 21vw;
+}
+
 /*ROSBOKSE*/
 
 #ros1 {
