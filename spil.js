@@ -20,7 +20,7 @@ var info = ["#info1", "#info2", "#info3", "#info4", "#info5"];
 function sidenErLoadet() {
     console.log("siden er loadet - logincycle begynder");
 
-    //    $("#taste_lyd")[0].play();
+    //    $("#tastelyd")[0].play();
     $("#loginsprite").removeClass("hidden").addClass("login_cycle");
     $("#baggrund").removeClass("hidden");
 
@@ -33,6 +33,7 @@ function login() {
     $("#loginknap").removeClass("hidden").addClass("puls");
 
     $("#loginknap").on("click", startBillede);
+    // $("#kliklyd")[0].play();
 }
 
 
@@ -120,6 +121,9 @@ function klikDel() {
     $(info[billedeNr]).removeClass("hidden").addClass("fade");
 
     setTimeout(okknapFader, 1500);
+
+    // $("#forkertlyd")[0].play();
+
 }
 
 
@@ -136,6 +140,9 @@ function klikLuk() {
     ikkeDelt++;
 
     setTimeout(okknapFader, 1500);
+
+    // $("#korrektlyd")[0].play();
+
 }
 
 function okknapFader() {
