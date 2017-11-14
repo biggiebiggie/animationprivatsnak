@@ -266,11 +266,7 @@ body {
 /*ROSBOKSE*/
 
 #ros1 {
-<<<<<<< HEAD
     background-image: url(images/faktabokse/klasseimgrigtig.svg);
-=======
-    background-image: url(images/faktabokse/.svg);
->>>>>>> origin/master
     background-size: 100%;
     position: absolute;
     width: 30vw;
