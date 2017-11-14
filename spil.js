@@ -75,8 +75,6 @@ function start() {
 function visBillede() {
     console.log("Første billede: klassebillede fader ind");
 
-
-
     $("#start_billede").removeClass("fade").addClass("hidden");
     $("#startknap").removeClass("fade").addClass("hidden");
 
@@ -151,17 +149,18 @@ function klikIteration() {
     $(info[billedeNr]).hide();
 
     billedeNr++;
-    visBillede();
+
 
     if (billedeNr == 5) {
         resultat();
+    } else {
+        visBillede();
     }
+
 }
 
-
-
 function resultat() {
-    console.log("spil færdig");
+    console.log("spillet er færdig");
 
     $("#delknap").removeClass("puls").addClass("hidden");
     $("#lukknap").removeClass("puls").addClass("hidden");
