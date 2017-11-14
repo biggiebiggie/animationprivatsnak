@@ -197,7 +197,7 @@ body {
     height: 100%;
 }
 
-#rejse_billede {
+#toilet_billede {
     background-image: url(images/instagrambilleder/rejse_insta.svg);
     background-size: 100%;
     position: absolute;
@@ -266,7 +266,11 @@ body {
 /*ROSBOKSE*/
 
 #ros1 {
-    background-image: url(images/faktabokse/ros2.svg);
+<<<<<<< HEAD
+    background-image: url(images/faktabokse/klasseimgrigtig.svg);
+=======
+    background-image: url(images/faktabokse/.svg);
+>>>>>>> origin/master
     background-size: 100%;
     position: absolute;
     width: 30vw;
@@ -276,7 +280,7 @@ body {
 }
 
 #ros2 {
-    background-image: url(images/faktabokse/ros2.svg);
+    background-image: url(images/faktabokse/drukimgrigtigt.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
@@ -286,7 +290,7 @@ body {
 }
 
 #ros3 {
-    background-image: url(images/faktabokse/ros3.svg);
+    background-image: url(images/faktabokse/babyimgrigtigt.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
@@ -296,7 +300,7 @@ body {
 }
 
 #ros4 {
-    background-image: url(images/faktabokse/ros4.svg);
+    background-image: url(images/faktabokse/Strandimgrigtig.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
@@ -306,7 +310,7 @@ body {
 }
 
 #ros5 {
-    background-image: url(images/faktabokse/ros5.svg);
+    background-image: url(images/faktabokse/lufthavnimgrigtig.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
@@ -318,7 +322,7 @@ body {
 /*INFOBOKSE*/
 
 #info1 {
-    background-image: url(images/faktabokse/info1.svg);
+    background-image: url(images/faktabokse/klasseimgforker.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
@@ -329,7 +333,7 @@ body {
 
 
 #info2 {
-    background-image: url(images/faktabokse/info2.svg);
+    background-image: url(images/faktabokse/drukimgforkert.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
@@ -339,7 +343,7 @@ body {
 }
 
 #info3 {
-    background-image: url(images/faktabokse/info3.svg);
+    background-image: url(images/faktabokse/babyimgforkert.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
@@ -349,7 +353,7 @@ body {
 }
 
 #info4 {
-    background-image: url(images/faktabokse/info4.svg);
+    background-image: url(images/faktabokse/lufthavnimgforkert.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
@@ -359,7 +363,7 @@ body {
 }
 
 #info5 {
-    background-image: url(images/faktabokse/info5.svg);
+    background-image: url(images/faktabokse/Strandimgforkert.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
