@@ -62,7 +62,7 @@ body {
 }
 
 #start_billede {
-    background-image: url(images/Start/start.svg);
+    background-image: url(images/Start/start_billede.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
@@ -72,19 +72,19 @@ body {
 
 #startknap {
     position: absolute;
-    background-image: url(images/Start/Start-knap.svg);
+    background-image: url(images/Start/start_knap.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 10vw;
-    height: 5vw;
-    top: 23vw;
-    left: 15vw;
+    width: 8vw;
+    height: 2.5vw;
+    top: 32vw;
+    left: 16.5vw;
     z-index: 1;
     cursor: pointer;
 }
 
 .hidden {
-    opacity: 0;
+	display: none;
 }
 
 #loginknap {
@@ -268,6 +268,7 @@ body {
 #ros1 {
     background-image: url(images/faktabokse/klasseimgrigtig.svg);
     background-size: 100%;
+	background-repeat: no-repeat;
     position: absolute;
     width: 25.5vw;
     height: 26vw;
@@ -278,6 +279,7 @@ body {
 #ros2 {
     background-image: url(images/faktabokse/drukimgrigtig.svg);
     background-size: 100%;
+	background-repeat: no-repeat;
     position: absolute;
     width: 25.5vw;
     height: 26vw;
@@ -288,6 +290,7 @@ body {
 #ros3 {
     background-image: url(images/faktabokse/babyimgrigtig.svg);
     background-size: 100%;
+	background-repeat: no-repeat;
     position: absolute;
     width: 25.5vw;
     height: 26vw;
@@ -298,6 +301,7 @@ body {
 #ros4 {
     background-image: url(images/faktabokse/Strandimgrigtig.svg);
     background-size: 100%;
+	background-repeat: no-repeat;
     position: absolute;
     width: 25.5vw;
     height: 26vw;
@@ -308,6 +312,7 @@ body {
 #ros5 {
     background-image: url(images/faktabokse/lufthavnimgrigtig.svg);
     background-size: 100%;
+	background-repeat: no-repeat;
     position: absolute;
     width: 25.5vw;
     height: 26vw;
@@ -320,6 +325,7 @@ body {
 #info1 {
     background-image: url(images/faktabokse/klasseimgforker.svg);
     background-size: 100%;
+	background-repeat: no-repeat;
     position: absolute;
     width: 25.5vw;
     height: 26vw;
@@ -331,6 +337,7 @@ body {
 #info2 {
     background-image: url(images/faktabokse/drukimgforkert.svg);
     background-size: 100%;
+	background-repeat: no-repeat;
     position: absolute;
     width: 25.5vw;
     height: 26vw;
@@ -341,6 +348,7 @@ body {
 #info3 {
     background-image: url(images/faktabokse/babyimgforkert.svg);
     background-size: 100%;
+	background-repeat: no-repeat;
     position: absolute;
     width: 25.5vw;
     height: 26vw;
@@ -351,6 +359,7 @@ body {
 #info4 {
     background-image: url(images/faktabokse/lufthavnimgforkert.svg);
     background-size: 100%;
+	background-repeat: no-repeat;
     position: absolute;
     width: 25.5vw;
     height: 26vw;
@@ -361,6 +370,7 @@ body {
 #info5 {
     background-image: url(images/faktabokse/Strandimgforkert.svg);
     background-size: 100%;
+	background-repeat: no-repeat;
     position: absolute;
     width: 25.5vw;
     height: 26vw;
@@ -371,11 +381,41 @@ body {
 /*RESULTATSIDE*/
 
 #payoff {
-    background-image: url(images/);
+    background-image: url(images/payoff/payoff2.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
     height: 30vw;
+}
+
+#ikon_telefon{
+	background-image: url(images/payoff/payoff_ikon_tlf.svg);
+	    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 3.8vw;
+    left: 67.6vw;
+    top: 2.9vw;
+}
+
+#ikon_chat{
+	background-image: url(images/payoff/payoff_ikon_chat.svg);
+	    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 3.8vw;
+    left: 67.6vw;
+    top: 2.9vw;
+}
+
+#ikon_mail{
+	background-image: url(images/payoff/payoff_ikon_mail.svg);
+	    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 3.8vw;
+    left: 67.6vw;
+    top: 2.9vw;
 }
 
 /*SPRITE ANIMATION*/
@@ -404,7 +444,7 @@ body {
     animation-duration: 0.7s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation-fill-mode: both;
 }
 
 @keyframes fade {
