@@ -27,7 +27,6 @@ function sidenErLoadet() {
     $("#delknap").hide();
     $("#startknap").hide();
 
-    $("#loginsprite").removeClass("hidden");
     $("#loginsprite").addClass("login_cycle");
 
     $("#loginsprite").on("animationend", login);
