@@ -309,9 +309,12 @@ img {
 }
 
 #assets .right {
+    flex-basis: 400px;
+}
+
+#assets .right_content {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 400px;
 }
 
 #assets .billeder,
