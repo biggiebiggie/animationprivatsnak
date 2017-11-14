@@ -79,7 +79,7 @@ function visBillede() {
     $("#delknap").removeClass("hidden").addClass("fade");
     $("#lukknap").removeClass("hidden").addClass("fade");
 
-    $("#klasse_billede").on("animationend", tagValg);
+    $(billede[billedeNr]).on("animationend", tagValg);
 }
 
 // TAG VALG
@@ -87,7 +87,7 @@ function visBillede() {
 function tagValg() {
     console.log("knapperne pulser");
 
-    $("#klasse_billede").off("animationend", tagValg);
+    $("#billede[billedeNr]").off("animationend", tagValg);
 
     //effekter med knapper skal lægges ind
 

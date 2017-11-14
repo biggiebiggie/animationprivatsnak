@@ -75,10 +75,10 @@ body {
     background-image: url(images/Start/start_knap.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 10vw;
-    height: 5vw;
-    top: 23vw;
-    left: 15vw;
+    width: 8vw;
+    height: 2.5vw;
+    top: 32vw;
+    left: 16.5vw;
     z-index: 1;
     cursor: pointer;
 }
