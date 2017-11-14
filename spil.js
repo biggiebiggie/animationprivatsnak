@@ -5,7 +5,6 @@ var billedeNr = 0;
 //var klikket5Billeder = false;
 
 
-
 var billede = ["#klasse_billede", "#druk_billede", "#babysitting_billede", "#rejse_billede", "#ferie_billede"];
 
 var hashtag = ["#hashtag_klassebillede", "#hashtag_druk", "#hashtag_babysitting", "#hashtag_toilet", "#hashtag_ferie"];
@@ -16,18 +15,14 @@ var info = ["#info1", "#info2", "#info3", "#info4", "#info5"];
 
 
 
-
 function sidenErLoadet() {
     console.log("siden er loadet - logincycle begynder");
 
+
     //    $("#taste_lyd")[0].play();
 
-    $("#lukknap").hide();
-
-    $("#delknap").hide();
-    $("#startknap").hide();
-
-    $("#loginsprite").addClass("login_cycle");
+    $("#loginsprite").removeClass("hidden").addClass("login_cycle");
+	$("#baggrund").removeClass("hidden");
 
     $("#loginsprite").on("animationend", login);
 }
@@ -35,8 +30,7 @@ function sidenErLoadet() {
 function login() {
     console.log("Login aktiv og pulser");
 
-    $("#loginknap").removeClass("hidden");
-    $("#loginknap").addClass("puls");
+    $("#loginknap").removeClass("hidden").addClass("puls");
 
     $("#loginknap").on("click", startBillede);
 }
@@ -44,22 +38,14 @@ function login() {
 
 //STARTBILLEDE
 function startBillede() {
-    console.log("startbillede fader ind med sprite for login");
+    console.log("startbillede fader ind");
 
     $("#loginknap").off("click", startBillede);
-    $("#loginknap").removeClass("puls");
-    $("#loginsprite").removeClass("login_cycle");
+    $("#loginknap").removeClass("puls").addClass("hidden");
+    $("#loginsprite").removeClass("login_cycle").addClass("hidden");
 
-    $("#loginsprite").hide();
-    $("#loginknap").hide();
-
-    $("#start_billede").removeClass("hidden");
-    $("#startknap").removeClass("hidden");
-
-    $("#startknap").show();
-    $("#start_billede").addClass("fade");
-
-    $("#startknap").addClass("fade");
+    $("#start_billede").removeClass("hidden").addClass("fade");
+    $("#startknap").removeClass("hidden").addClass("fade");
 
     $("#startknap").on("animationend", start);
 }
@@ -68,9 +54,8 @@ function start() {
     console.log("Start aktiv og pulser");
 
     $("#startknap").off("animationend", start);
-    $("#startknap").removeClass("fade");
+    $("#startknap").removeClass("fade").addClass("puls");
 
-    $("#startknap").addClass("puls");
     $("#startknap").on("click", visBillede);
 }
 
@@ -80,21 +65,19 @@ function start() {
 function visBillede() {
     console.log("Første billede: klassebillede fader ind");
 
-    $("#startknap").hide();
 
-    $("#start_billede").removeClass("fade");
-    $("#startknap").removeClass("fade");
+
+    $("#start_billede").removeClass("fade").addClass("hidden");
+    $("#startknap").removeClass("fade").addClass("hidden");
 
     $("#startknap").off("click", visBillede);
 
     console.log("billede[billedeNr]:", billede[billedeNr]);
-    $(billede[billedeNr]).removeClass("hidden");
-    $(hashtag[billedeNr]).removeClass("hidden");
-    $(billede[billedeNr]).addClass("fade");
-    $(hashtag[billedeNr]).addClass("fade");
+    $(billede[billedeNr]).removeClass("hidden").addClass("fade");
+    $(hashtag[billedeNr]).removeClass("hidden").addClass("fade");
 
-    $("#delknap").addClass("fade");
-    $("#lukknap").addClass("fade");
+    $("#delknap").removeClass("hidden").addClass("fade");
+    $("#lukknap").removeClass("hidden").addClass("fade");
 
     $("#klasse_billede").on("animationend", tagValg);
 }
@@ -108,13 +91,8 @@ function tagValg() {
 
     //effekter med knapper skal lægges ind
 
-    $("#lukknap").show();
-    $("#delknap").show();
-
-    $("#delknap").removeClass("hidden");
-    $("#lukknap").removeClass("hidden");
-    $("#delknap").addClass("puls");
-    $("#lukknap").addClass("puls");
+    $("#delknap").removeClass("fade").addClass("puls");
+    $("#lukknap").removeClass("fade").addClass("puls");
 
     $("#delknap").on("click", klikDel);
     $("#lukknap").on("click", klikLuk);
@@ -127,13 +105,10 @@ function klikDel() {
     console.log("Bruger vælger at dele");
     //remove puls
 
-    $("#delknap").removeClass("puls");
-    $("#lukknap").removeClass("puls");
+    $("#delknap").removeClass("puls").addClass("hidden");
+    $("#lukknap").removeClass("puls").addClass("hidden");
 
-    $(info[billedeNr]).removeClass("hidden");
-    $(info[billedeNr]).addClass("fade");
-
-
+    $(info[billedeNr]).removeClass("hidden").addClass("fade");
 
     setTimeout(klikIteration, 5000);
 }
@@ -144,28 +119,36 @@ function klikDel() {
 function klikLuk() {
     console.log("Bruger vælger IKKE at dele");
 
-    $("#delknap").removeClass("puls");
-    $("#lukknap").removeClass("puls");
+    $("#delknap").removeClass("puls").addClass("hidden");
+    $("#lukknap").removeClass("puls").addClass("hidden");
 
-    $(ros[billedeNr]).removeClass("hidden");
-    $(ros[billedeNr]).addClass("fade");
-    //remove puls
+    $(ros[billedeNr]).removeClass("hidden").addClass("fade");
+
     setTimeout(klikIteration, 5000);
-
 }
 
 
 
 function klikIteration() {
-    console.log("iteraterer");
+    console.log("itererer");
+
     $(hashtag[billedeNr]).hide();
     $(ros[billedeNr]).hide();
     $(info[billedeNr]).hide();
 
     billedeNr++;
     visBillede();
+
+	if (billedeNr == 5) {
+		resultat();
+	}
 }
 
 
 
-function resultat() {}
+function resultat() {
+	console.log("spil færdig");
+
+	$("#payoff").removeClass("hidden");
+	$("#payoff").show();
+}

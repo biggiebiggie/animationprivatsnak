@@ -62,7 +62,7 @@ body {
 }
 
 #start_billede {
-    background-image: url(images/Start/start.svg);
+    background-image: url(images/Start/start_billede.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
@@ -72,7 +72,7 @@ body {
 
 #startknap {
     position: absolute;
-    background-image: url(images/Start/Start-knap.svg);
+    background-image: url(images/Start/start_knap.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 10vw;
@@ -84,7 +84,7 @@ body {
 }
 
 .hidden {
-    opacity: 0;
+	display: none;
 }
 
 #loginknap {
@@ -371,11 +371,41 @@ width: 25.5vw;
 /*RESULTATSIDE*/
 
 #payoff {
-    background-image: url(images/);
+    background-image: url(images/payoff/payoff2.svg);
     background-size: 100%;
     position: absolute;
     width: 30vw;
     height: 30vw;
+}
+
+#ikon_telefon{
+	background-image: url(images/payoff/payoff_ikon_tlf.svg);
+	    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 3.8vw;
+    left: 67.6vw;
+    top: 2.9vw;
+}
+
+#ikon_chat{
+	background-image: url(images/payoff/payoff_ikon_chat.svg);
+	    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 3.8vw;
+    left: 67.6vw;
+    top: 2.9vw;
+}
+
+#ikon_mail{
+	background-image: url(images/payoff/payoff_ikon_mail.svg);
+	    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 3.8vw;
+    left: 67.6vw;
+    top: 2.9vw;
 }
 
 /*SPRITE ANIMATION*/
@@ -404,7 +434,7 @@ width: 25.5vw;
     animation-duration: 0.7s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation-fill-mode: both;
 }
 
 @keyframes fade {
