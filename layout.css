@@ -150,19 +150,21 @@ p {
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 54.5vw;
+    height: 60vw;
+    top: 7.8vw;
+    left: 21.5vw;
 }
 
 #startknap {
     position: absolute;
-    background-image: url(images/Start/start_knap.svg);
+    background-image: url(images/knapper/startknap.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 8vw;
+    width: 7vw;
     height: 2.5vw;
-    top: 32vw;
-    left: 16.5vw;
+    top: 51.5vw;
+    left: 46.3vw;
     z-index: 1;
     cursor: pointer;
 }
