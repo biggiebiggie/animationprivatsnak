@@ -149,8 +149,10 @@ p {
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 54.5vw;
+    height: 60vw;
+    top: 7.8vw;
+    left: 21.5vw;
 }
 
 #startknap {
@@ -160,8 +162,8 @@ p {
     background-repeat: no-repeat;
     width: 7vw;
     height: 2.5vw;
-    top: 32vw;
-    left: 17.2vw;
+    top: 51.5vw;
+    left: 46.3vw;
     z-index: 1;
     cursor: pointer;
 }
