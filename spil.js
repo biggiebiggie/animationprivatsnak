@@ -32,6 +32,7 @@ function sidenErLoadet() {
     $("#start_billede").removeClass("hidden");
 
     setTimeout(startknapFader, 1000);
+
 }
 
 function startknapFader() {
@@ -113,8 +114,6 @@ function tagValg() {
 
     $("#billede[billedeNr]").off("animationend", tagValg);
 
-    //effekter med knapper skal lægges ind
-
     $("#delknap").removeClass("fade").addClass("puls");
     $("#lukknap").removeClass("fade").addClass("puls");
 
@@ -140,8 +139,6 @@ function klikDel() {
 
 
     setTimeout(okknapFader, 1500);
-
-    // $("#forkertlyd")[0].play();
 
 }
 
