@@ -20,7 +20,14 @@ var info = ["#info1", "#info2", "#info3", "#info4", "#info5"];
 function sidenErLoadet() {
     console.log("siden er loadet - logincycle begynder");
 
-    // $("#tastelyd")[0].play();
+    $("#temasang")[0].play();
+    $("#temasang")[0].volume = 0;
+    $("#temasang")[0].loop = true;
+    $("#temasang").animate({
+        volume: 0.3
+    }, 1000);
+
+    $("#tastelyd")[0].play();
     $("#loginsprite").removeClass("hidden").addClass("login_cycle");
     $("#baggrund").removeClass("hidden");
 
