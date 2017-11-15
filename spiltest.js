@@ -29,9 +29,9 @@ function sidenErLoadet() {
 
     $("#baggrund").removeClass("hidden");
 
-    $("#start_billede").removeClass("hidden").addClass("fade");
+    $("#start_billede").removeClass("hidden");
 
-    $("#start_billede").on("animationend", startknapFader);
+    setTimeout(startknapFader, 1500);
 }
 
 function startknapFader() {
