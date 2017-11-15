@@ -120,6 +120,10 @@ function klikDel() {
 
     $(info[billedeNr]).removeClass("hidden").addClass("fade");
 
+    $("#forkertlyd")[0].play();
+    $("#forkertlyd")[0].volume = 0.4;
+
+
     setTimeout(okknapFader, 1500);
 
     // $("#forkertlyd")[0].play();
@@ -139,10 +143,10 @@ function klikLuk() {
 
     ikkeDelt++;
 
+    $("#korrektlyd")[0].play();
+    $("#korrektlyd")[0].volume = 0.4;
+
     setTimeout(okknapFader, 1500);
-
-    // $("#korrektlyd")[0].play();
-
 }
 
 function okknapFader() {
