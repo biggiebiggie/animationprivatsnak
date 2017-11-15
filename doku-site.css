@@ -325,3 +325,7 @@ img {
 #assets .lyde {
     flex-basis: 190px;
 }
+
+#burndownchart .container {
+	display: block;
+}
