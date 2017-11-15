@@ -121,7 +121,7 @@ p {
 /* LOGIN */
 
 #loginsprite {
-    background-image: url(images/loginsprite.png);
+    background-image: url(images/LoginSprite.png);
     background-size: 1500%;
     position: absolute;
     width: 100%;
