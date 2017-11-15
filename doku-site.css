@@ -236,14 +236,10 @@ img {
 
 /*FORSIDE*/
 
-#forside .top {
-    /*
-    border-radius: 30px;
-    border: solid;
-    border-color: #e9eced;
-    border-width: 5px;
-*/
+#forside .container {
+    display: block;
 }
+
 
 #forside .bottom {
     background-color: #f4912d;
@@ -251,7 +247,8 @@ img {
     border: solid;
     border-color: #e9eced;
     border-width: 5px;
-    width: 30vw;
+    width: 50vw;
+    margin: 0 auto;
 }
 
 /*HISTORIE*/
@@ -280,9 +277,10 @@ img {
     flex-basis: 400px;
 }
 
-/* pige fast størrelse */
+/* persona-img fast str. */
 
-#persona .column_top .right {
+#persona .column_top .right,
+#persona .column_bottom .right {
     height: 400px;
     width: 400px;
 }
@@ -299,6 +297,12 @@ img {
 /*Layoutdiagram*/
 
 #layoutdiagram .container {
+    display: block;
+}
+
+/*Sekvensdiagram*/
+
+#sekvensdiagram .container {
     display: block;
 }
 
@@ -319,5 +323,5 @@ img {
 
 #assets .billeder,
 #assets .lyde {
-    flex-basis: 100px;
+    flex-basis: 190px;
 }
