@@ -155,13 +155,13 @@ p {
 
 #startknap {
     position: absolute;
-    background-image: url(images/Start/start_knap.svg);
+    background-image: url(images/knapper/startknap.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 8vw;
+    width: 7vw;
     height: 2.5vw;
     top: 32vw;
-    left: 16.5vw;
+    left: 17.2vw;
     z-index: 1;
     cursor: pointer;
 }
