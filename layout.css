@@ -121,6 +121,7 @@ p {
 /* LOGIN */
 
 #loginsprite {
+	z-index: 9999;
     background-image: url(images/loginsprite.png);
     background-size: 1500%;
     position: absolute;

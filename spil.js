@@ -48,6 +48,7 @@ function login() {
 function startBillede() {
     console.log("startbillede fader ind");
 
+	$("#billede_container").removeClass("hidden");
     $("#loginknap").off("click", startBillede);
     $("#loginknap").removeClass("puls").addClass("hidden");
     $("#loginsprite").removeClass("login_cycle").addClass("hidden");
