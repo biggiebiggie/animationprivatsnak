@@ -214,16 +214,18 @@ p {
     height: 100%;
 }
 
-#babysitting_billede {
-    background-image: url(images/instagrambilleder/babysitting.svg);
+
+#rejse_billede {
+    background-image: url(images/instagrambilleder/rejse_insta.svg);
     background-size: 100%;
     position: absolute;
     width: 100%;
     height: 100%;
 }
 
-#rejse_billede {
-    background-image: url(images/instagrambilleder/rejse_insta.svg);
+
+#babysitting_billede {
+    background-image: url(images/instagrambilleder/babysitting.svg);
     background-size: 100%;
     position: absolute;
     width: 100%;
